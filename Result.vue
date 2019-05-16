@@ -20,6 +20,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #aaa;
 }
 .blobbed {
   height: 50vw;

@@ -1,0 +1,16 @@
+{
+  "name": "clip-path-blog-post",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vue serve Result.vue",
+    "build": "vue build Result.vue"
+  },
+  "devDependencies": {
+    "@vue/cli": "^3.7.0",
+    "@vue/cli-service-global": "^3.7.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

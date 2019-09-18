@@ -23,9 +23,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #aaa;
   max-width: 50%;
   margin: 0 auto;
+  background: #E55D87;
+  background: -webkit-linear-gradient(to bottom, #5FC3E4, #E55D87);
+  background: linear-gradient(to bottom, #5FC3E4, #E55D87);
 }
 .blobbed {
   position: relative;
@@ -44,7 +46,3 @@ body {
   width: auto;
 }
 </style>
-
-
-// have blob - notice the viewbox is 0 0 600 600!
-// squared up the picture

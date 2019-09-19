@@ -29,6 +29,11 @@ body {
   background: -webkit-linear-gradient(to bottom, #5FC3E4, #E55D87);
   background: linear-gradient(to bottom, #5FC3E4, #E55D87);
 }
+@media screen and (max-width: 768px) {
+  body {
+    max-width: 82%;
+  }
+}
 .blobbed {
   position: relative;
   flex: 1;

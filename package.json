@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "vue serve Result.vue",
-    "build": "vue build Result.vue"
+    "build": "vue build Result.vue",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@vue/cli": "^3.7.0",
-    "@vue/cli-service-global": "^3.7.0"
+    "@vue/cli-service-global": "^3.7.0",
+    "gh-pages": "^2.1.1"
   },
   "author": "",
   "license": "ISC"
